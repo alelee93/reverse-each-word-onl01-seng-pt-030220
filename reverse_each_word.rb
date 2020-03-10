@@ -6,6 +6,6 @@ def reverse_each_word(sentence)
   reverse_sentence_array.each do |word|
     new_array.unshift(word)
   end
-  new_array
+  new_array.
     
 end
