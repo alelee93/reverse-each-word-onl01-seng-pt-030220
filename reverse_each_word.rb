@@ -7,7 +7,13 @@ def reverse_each_word(sentence)
     new_array.unshift(word)
   end
   new_array.join(" ")
-    
+  
+  ####  
+  reverse_sentence_array.collect do |word|
+    new_array.unshift(word).join(" ")
+  end
+ 
+     
      
 end
 
