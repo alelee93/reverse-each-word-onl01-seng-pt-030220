@@ -11,7 +11,6 @@ def reverse_each_word(sentence)
 
 ## using collect
 
-second_array =[]
 
 def reverse_each_word(sentence)
   reverse_sentence = sentence.reverse
