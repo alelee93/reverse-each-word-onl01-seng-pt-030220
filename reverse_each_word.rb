@@ -18,7 +18,7 @@ def reverse_each_word(sentence)
   second_array = []
   
   reverse_sentence_array.collect do |word|
-   update = second_array.unshift(word)
+   update = second_array << word
    return update
 end
   end
