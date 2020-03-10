@@ -13,9 +13,9 @@ def reverse_each_word(sentence)
 second_array =[]
 
 ####  
-def reverse_each_word(sentence)
+def reverse_each_word_2(sentence)
   reverse_sentence_array.collect do |word|
    update = second_array.unshift(word).
    return update.join(" ")
- end
+end
   end
